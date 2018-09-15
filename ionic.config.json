@@ -1,0 +1,7 @@
+{
+  "name": "bimbo",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
