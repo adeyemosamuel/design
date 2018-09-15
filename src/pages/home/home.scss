@@ -1,3 +1,57 @@
 page-home {
 
+  .header{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+    background-color: royalblue;
+  }
+
+  span{
+    margin: 0 auto;
+    margin-top: 14px;
+    font-size: 20px;
+    white-space: normal;
+    text-align: center;
+  }
+
+  i {
+    font-size: 20px !important;
+    margin-left: 20px;
+    margin-top: 12px;
+    color: white;
+  }
+
+  img{
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 20px;
+  }
+
+  .row{
+    height: 100px;
+    width: 100px;
+  }
+
+  .icon{
+    margin-top: 30px;
+  }
+
+  ion-card{
+    border-radius: 15px;
+    background-color: #32db28;
+    height: 0px;
+    width: 60px;
+    margin: 0 auto;
+    display: block;
+  }
+
 }
